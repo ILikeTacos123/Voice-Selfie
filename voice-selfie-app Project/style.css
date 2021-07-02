@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient( #42f5e3 0%, #f542d1 100% );
+}
+
+#start-btn
+{
+    width: 10%;
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+#logo_img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+
+#start-btn:hover {
+    background-color: hotpink;
+    color: black;
+} 
+
+#textbox {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from {box-shadow: 5px 5px 5px yellow;}
+    to {box-shadow: 5px 5px 5px purple}
+}
